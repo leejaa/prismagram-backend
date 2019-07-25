@@ -13,6 +13,7 @@ type User {
   followingCount: Int!
   followers: [User!]!
   followersCount: Int!
+  postsCount: Int!
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
@@ -31,7 +32,8 @@ type Post {
   likes: [Like!]!
   comments: [Comment!]!
   isLiked: Boolean!
-  likeCount: Int!
+  likeCount: Int
+  commentCount: Int
   createdAt: String
   updatedAt: String
 }
