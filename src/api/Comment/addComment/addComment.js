@@ -6,6 +6,10 @@ import { prisma } from "../../../../generated/prisma-client";
     addComment: async (_, args, { request }) => {
       isAuthenticated(request);
       const { text, postId } = args;
+
+      console.log(`postId : ${postId}`);
+      console.log(`text : ${text}`);
+
       const { user } = request;
       const comment = await prisma.createComment({
         user: {
