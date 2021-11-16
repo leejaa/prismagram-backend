@@ -9,7 +9,7 @@
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.3.1",
     "@babel/runtime": "^7.4.5",
-    "aws-sdk": "^2.483.0",
+    "aws-sdk": "^2.814.0",
     "copy": "^0.3.2",
     "dotenv": "^6.2.0",
     "graphql-tools": "^4.0.4",
